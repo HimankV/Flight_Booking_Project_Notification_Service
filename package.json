@@ -1,0 +1,24 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "Boilerplate for nodejs backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himank Verma",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.16.2",
+    "nodemailer": "^8.0.1",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.5",
+    "winston": "^3.19.0"
+  }
+}
